@@ -13,7 +13,7 @@ SELECT productid,Name,Color,ListPrice FROM [Production].[Product]
 WHERE color = not null and ListPrice > 0
 
 SELECT Name+':'+color FROM production.Product 
-WHERE color =! null
+WHERE color != null
 
 SELECT productid,Name FROM [Production].[Product] 
 WHERE productid <> 400 and 500
