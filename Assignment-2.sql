@@ -1,4 +1,4 @@
-A set of rows/a table
+/*A set of rows/a table
 
 Union all includes repeated values
 
@@ -12,7 +12,7 @@ Left join will return values from the left table where the join value is not nul
 
 Cross join creates a paired combination of all values of two tables, creating a table by essentially multiplying the values by one another.
 
-Yes 
+Yes */
 
 ----------------------------------------
 
