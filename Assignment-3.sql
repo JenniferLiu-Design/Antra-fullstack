@@ -1,4 +1,4 @@
-The answer depends. Joins typically have better performance, but subqueries make more logical sense and are easier to read by some. I'd personally typically default to using joins. 
+/*The answer depends. Joins typically have better performance, but subqueries make more logical sense and are easier to read by some. I'd personally typically default to using joins. 
 
 CTEs stand for Common Table Expressions. They can be used within a select, insert, update, or delete statement. You can use CTEs for recursive queries. 
 
@@ -8,7 +8,7 @@ Truncate simply deallocates all the data pages used by the table. Delete logs ea
 
 If you choose to generate an identity column, it will automatically increment. Delete will not reset the value of the identity column but truncate will.
 
-I feel like this was explained in the previous two answers.
+I feel like this was explained in the previous two answers.*/
 
 ---------------------
 
