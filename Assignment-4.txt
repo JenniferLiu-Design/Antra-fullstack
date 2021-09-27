@@ -1,10 +1,10 @@
-Views are virtual tables. Views can be useful when it comes to allowing users to see specific types of data while hiding other types of data, whether that's personal data or just to simplify and streamline the user experience. 
+/* Views are virtual tables. Views can be useful when it comes to allowing users to see specific types of data while hiding other types of data, whether that's personal data or just to simplify and streamline the user experience. 
 
 No
 
 A stored procedure is premade SQL code that you can save, so the code can be reused over and over again, saving time.
 
-/* Unlike stored procedures, views do not accept parameters, cannot contain several statements, and cannot perform modifications on tables.
+Unlike stored procedures, views do not accept parameters, cannot contain several statements, and cannot perform modifications on tables.
 
 Functions must return values. Functions can only have input parameteres whereas Procedures can have input or output parameters. Functions can be called from Procedures but not vice versa.
 
